@@ -1,0 +1,1316 @@
+[{
+    "name": "AWS-Amazon-AppFlow",
+    "description": "No-code integration for SaaS apps and AWS services",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-Athena",
+    "description": "Query data in Amazon S3 using SQL",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Clean-Rooms",
+    "description": "Collaborate and analyze collective datasets without sharing raw data",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-CloudSearch",
+    "description": "Managed search service",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Data-Exchange",
+    "description": "Find, subscribe to, and use third-party data in the cloud",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-Data-Firehose",
+    "description": "Fully managed real-time streaming data delivery service",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Data-Pipeline",
+    "description": "Orchestration service for periodic, data-driven workflows",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-DataZone",
+    "description": "Unlock data across organizational boundaries with built-in governance",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-EMR",
+    "description": "Hosted Hadoop framework",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Entity-Resolution",
+    "description": "Link records stored across multiple applications, channels, and data stores",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-FinSpace",
+    "description": "Store, catalog, prepare, and analyze financial industry data",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Glue",
+    "description": "Simple, scalable, and serverless data integration",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-Kinesis",
+    "description": "Analyze real-time video and data streams",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Lake-Formation",
+    "description": "Build a secure data lake in days",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-Managed-Service-for-Apache-Flink",
+    "description": "Process and analyze streaming data using Apache Flink",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-MSK",
+    "description": "Fully managed Apache Kafka service",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-OpenSearch-Service",
+    "description": "Deploy, operate, and scale OpenSearch clusters in the AWS Cloud",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-QuickSight",
+    "description": "Fast business analytics service",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Amazon-Redshift",
+    "description": "Fast, simple, cost-effective data warehouse service",
+    "category": "Analytics"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Application-Integration-Service",
+    "description": "Choose an AWS application integration service for your workloads",
+    "category": "Application Integration, Decision Guides"
+  },
+  {
+    "name": "AWS-B2B-Data-Interchange",
+    "description": "Enables automated exchange of EDI-based transactions",
+    "category": "Application Integration"
+  },
+  {
+    "name": "AWS-Amazon-EventBridge",
+    "description": "Serverless event bus for SaaS apps and AWS services",
+    "category": "Application Integration, Serverless"
+  },
+  {
+    "name": "AWS-Amazon-MQ",
+    "description": "Managed message broker service",
+    "category": "Application Integration"
+  },
+  {
+    "name": "AWS-Amazon-MWAA",
+    "description": "Managed orchestration service for Apache Airflow",
+    "category": "Application Integration"
+  },
+  {
+    "name": "AWS-Amazon-SNS",
+    "description": "Pub/sub, SMS, email, and mobile push notifications",
+    "category": "Application Integration, Serverless"
+  },
+  {
+    "name": "AWS-Amazon-SQS",
+    "description": "Managed message queues",
+    "category": "Application Integration, Serverless"
+  },
+  {
+    "name": "AWS-Step-Functions",
+    "description": "Coordination for distributed applications",
+    "category": "Application Integration, Serverless"
+  },
+  {
+    "name": "AWS-Amazon-SWF",
+    "description": "Build applications that coordinate work across distributed components",
+    "category": "Application Integration"
+  },
+  {
+    "name": "AWS-Console-Mobile-Application",
+    "description": "View and manage resources to support incident response while on the go",
+    "category": "AWS Management Console, Management & Governance"
+  },
+  {
+    "name": "AWS-Management-Console",
+    "description": "Web-based user interface comprising multiple AWS service consoles",
+    "category": "AWS Management Console, Management & Governance"
+  },
+  {
+    "name": "AWS-Amazon-Q",
+    "description": "Generative AI-powered assistants",
+    "category": "AWS Management Console"
+  },
+  {
+    "name": "AWS-Sign-In",
+    "description": "Find help signing in and out of your account",
+    "category": "AWS Management Console"
+  },
+  {
+    "name": "AWS-Blockchain-Templates",
+    "description": "Quickly create and deploy open-source blockchain frameworks on AWS",
+    "category": "Blockchain"
+  },
+  {
+    "name": "AWS-Amazon-Managed-Blockchain",
+    "description": "Create and manage scalable blockchain networks",
+    "category": "Blockchain"
+  },
+  {
+    "name": "AWS-AppFabric",
+    "description": "Aggregate and analyze data across SaaS applications",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-App-Studio",
+    "description": "Build internal applications to automate processes and simplify organization activities",
+    "category": "Business Applications, Developer Tools, Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Chime",
+    "description": "Frustration-free meetings, video calls, and chat",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-Chime-SDK",
+    "description": "Real-time messaging, audio, video, and screen sharing",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-Connect",
+    "description": "Omnichannel cloud contact center",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-End-User-Messaging-Push",
+    "description": "Application-to-person push notification service",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-End-User-Messaging-Social",
+    "description": "Application-to-person WhatsApp messaging service",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-End-User-Messaging-SMS",
+    "description": "Application-to-person SMS messaging service",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-One-Enterprise",
+    "description": "Palm-based authentication for secure building access",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-Pinpoint",
+    "description": "Multichannel marketing communications",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-SES",
+    "description": "High-scale inbound and outbound email",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Supply-Chain",
+    "description": "Reduce risks and lower costs with ML-powered supply chain application",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Wickr",
+    "description": "Protect enterprise communications with end-to-end encryption",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-WorkDocs",
+    "description": "Secure enterprise document storage and sharing",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Amazon-WorkMail",
+    "description": "Secure email and calendaring",
+    "category": "Business Applications"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Cost-Management-Strategy",
+    "description": "Ask the right questions to determine which cost management services fit your needs",
+    "category": "Cloud Financial Management, Decision Guides"
+  },
+  {
+    "name": "AWS-Billing-and-Cost-Management",
+    "description": "Find features that help you pay your bills and optimize your costs",
+    "category": "Cloud Financial Management"
+  },
+  {
+    "name": "AWS-Pricing-Calculator",
+    "description": "Create cost estimates that match your AWS use case",
+    "category": "Cloud Financial Management"
+  },
+  {
+    "name": "AWS-Savings-Plans",
+    "description": "Save on compute usage with flexible pricing",
+    "category": "Cloud Financial Management"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Compute-Service",
+    "description": "Choose the right AWS compute services for your workloads",
+    "category": "Compute, Decision Guides"
+  },
+  {
+    "name": "AWS-App-Runner",
+    "description": "Production web applications at scale made easy for developers",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Batch",
+    "description": "Run batch jobs at any scale",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Amazon-EC2",
+    "description": "Create and run virtual servers in the cloud with Amazon EC2",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Amazon-EC2-Image-Builder",
+    "description": "Automate lifecycle management of \"golden\" server images",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Elastic-Beanstalk",
+    "description": "Run and manage web apps",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-End-of-Support-Migration-Program-EMP-for-Windows-Server",
+    "description": "Migrate legacy apps to AWS-supported versions without code refactoring",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Lambda",
+    "description": "Run code without thinking about servers",
+    "category": "Compute, Serverless"
+  },
+  {
+    "name": "AWS-Amazon-Lightsail",
+    "description": "Launch and manage virtual private servers",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Amazon-Linux",
+    "description": "Portfolio of modern Linux-based high-performance operating systems",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Local-Zones",
+    "description": "Run latency-sensitive applications closer to end users",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Outposts",
+    "description": "Run AWS infrastructure on-premises",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Parallel-Computing-Service",
+    "description": "Easily run HPC workloads at virtually any scale",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-ParallelCluster",
+    "description": "Deploy and manage high-performance computing clusters in the AWS Cloud",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-SAM",
+    "description": "Build serverless applications on AWS",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Serverless-Application-Repository",
+    "description": "Discover, deploy, and publish serverless applications",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-SimSpace-Weaver",
+    "description": "Build and run large-scale spatial simulations in the AWS Cloud",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Wavelength",
+    "description": "Deliver ultra-low latency applications for 5G devices",
+    "category": "Compute"
+  },
+  {
+    "name": "AWS-Research-and-Engineering-Studio-on-AWS",
+    "description": "Create and manage portals for research collaboration",
+    "category": "Compute HPC"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Container-Service",
+    "description": "Choose the right AWS container service for your modern app development",
+    "category": "Containers, Decision Guides"
+  },
+  {
+    "name": "AWS-App2Container",
+    "description": "Containerize and migrate existing applications",
+    "category": "Containers"
+  },
+  {
+    "name": "AWS-Amazon-ECR",
+    "description": "Easily store, manage, and deploy container images",
+    "category": "Containers"
+  },
+  {
+    "name": "AWS-Amazon-ECS",
+    "description": "Highly secure, reliable, and scalable way to run containers",
+    "category": "Containers"
+  },
+  {
+    "name": "AWS-Amazon-EKS",
+    "description": "Run Kubernetes on AWS without operating your own Kubernetes clusters",
+    "category": "Containers"
+  },
+  {
+    "name": "AWS-Red-Hat-OpenShift-Service-on-AWS",
+    "description": "Managed OpenShift in the cloud",
+    "category": "Containers"
+  },
+  {
+    "name": "AWS-Certificate-Manager",
+    "description": "Provision, manage, and deploy SSL/TLS certificates",
+    "category": "Cryptography & PKI"
+  },
+  {
+    "name": "AWS-CloudHSM",
+    "description": "Hardware-based key storage for regulatory compliance",
+    "category": "Cryptography & PKI"
+  },
+  {
+    "name": "AWS-Crypto-Tools",
+    "description": "Helping you do cryptography right, even without special expertise",
+    "category": "Cryptography & PKI"
+  },
+  {
+    "name": "AWS-KMS",
+    "description": "Managed creation and control of encryption keys",
+    "category": "Cryptography & PKI"
+  },
+  {
+    "name": "AWS-Private-Certificate-Authority",
+    "description": "Create private certificates to identify resources and protect data",
+    "category": "Cryptography & PKI"
+  },
+  {
+    "name": "AWS-Signer",
+    "description": "Validate AWS Lambda and IoT device code against a digital signature",
+    "category": "Cryptography & PKI"
+  },
+  {
+    "name": "AWS-IQ",
+    "description": "Find AWS Certified third-party experts for on-demand project work",
+    "category": "Customer Enablement Services"
+  },
+  {
+    "name": "AWS-Incident-Detection-and-Response",
+    "description": "Proactive monitoring and incident management for production workloads",
+    "category": "Customer Enablement Services"
+  },
+  {
+    "name": "AWS-Managed-Services",
+    "description": "Infrastructure operations management for AWS",
+    "category": "Customer Enablement Services"
+  },
+  {
+    "name": "AWS-Professional-Services",
+    "description": "Get help executing your enterprise cloud computing initiatives",
+    "category": "Customer Enablement Services"
+  },
+  {
+    "name": "AWS-rePost-Private",
+    "description": "Build an organization-specific knowledge resource for your cloud community",
+    "category": "Customer Enablement Services"
+  },
+  {
+    "name": "AWS-Training-and-Certification",
+    "description": "Explore AWS learning opportunities",
+    "category": "Customer Enablement Services"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Database-Service",
+    "description": "Choose the right AWS database service",
+    "category": "Database, Decision Guides"
+  },
+  {
+    "name": "AWS-Amazon-Aurora",
+    "description": "High-performance managed relational database engine",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-DocumentDB",
+    "description": "Fully managed document database",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-DynamoDB",
+    "description": "Managed NoSQL database",
+    "category": "Database, Serverless"
+  },
+  {
+    "name": "AWS-Amazon-ElastiCache",
+    "description": "In-memory caching service",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-Keyspaces-for-Apache-Cassandra",
+    "description": "Managed Cassandra-compatible database",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-MemoryDB",
+    "description": "Redis-compatible, durable, in-memory database service",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-Neptune",
+    "description": "Fully managed graph database service",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-QLDB",
+    "description": "Fully managed ledger database",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-RDS",
+    "description": "Set up, operate, and scale a relational database in the cloud",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Amazon-Timestream",
+    "description": "Fully managed time series database",
+    "category": "Database"
+  },
+  {
+    "name": "AWS-Choosing-a-Generative-AI-Service",
+    "description": "Determine which AWS generative AI services are the best fit for your organization",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-Amazon-Bedrock-or-Amazon-SageMaker",
+    "description": "Determine which service is the best fit for your needs",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-CloudTrail-or-Amazon-CloudWatch",
+    "description": "Understand the differences and pick the one that's right for you",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-Amazon-Lightsail-or-Amazon-EC2",
+    "description": "Explore which service better meets your needs for a compute web service",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-Amazon-SQS-Amazon-SNS-or-Amazon-EventBridge",
+    "description": "Choose the best service for your needs",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-WAF-or-AWS-Shield",
+    "description": "Understand the differences and pick the one that's right for you",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Application-Integration-Service",
+    "description": "Choose an AWS application integration service for your workloads",
+    "category": "Application Integration, Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-a-Modern-Application-Strategy",
+    "description": "Choose a modern application development approach",
+    "category": "Decision Guides, Serverless"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Analytics-Service",
+    "description": "Ask the right questions to build your modern data architecture on AWS services",
+    "category": "Analytics, Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Cloud-Governance-Service",
+    "description": "Choose the right cloud governance services for your organization",
+    "category": "Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Container-Service",
+    "description": "Choose the right AWS container service for your modern app development",
+    "category": "Containers, Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Cost-Management-Strategy",
+    "description": "Ask the right questions to determine which cost management services fit your needs",
+    "category": "Cloud Financial Management, Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Compute-Service",
+    "description": "Choose the right AWS compute services for your workloads",
+    "category": "Compute, Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Database-Service",
+    "description": "Choose the right AWS database service",
+    "category": "Database, Decision Guides"
+  },
+  {
+    "name": "AWS-Choosing-AWS-Frontend-and-Mobile-Services",
+    "description": "Ask the right questions to build your web or mobile app on AWS",
+    "category": "Decision Guides, Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-IoT-Service",
+    "description": "Choose the right AWS IoT services",
+    "category": "Decision Guides, Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Machine-Learning-Service",
+    "description": "Choose the right ML services and frameworks to support your work",
+    "category": "Decision Guides, Machine Learning"
+  },
+  {
+    "name": "AWS-Choosing-AWS-Migration-Services-and-Tools",
+    "description": "Choose the right AWS tools and services for your migration",
+    "category": "Decision Guides, Migration & Transfer"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Monitoring-and-Observability-Service",
+    "description": "Choose the right AWS monitoring and observability service",
+    "category": "Decision Guides, Management & Governance"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Networking-and-Content-Delivery-Service",
+    "description": "Choose the right AWS networking and content delivery services",
+    "category": "Decision Guides, Networking & Content Delivery"
+  },
+  {
+    "name": "AWS-Choosing-AWS-Security-Identity-and-Governance-Services",
+    "description": "Find the AWS security, identity, and governance services and tools that fit your needs",
+    "category": "Decision Guides, Security, Identity, & Compliance"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Storage-Service",
+    "description": "Choose the right AWS storage service",
+    "category": "Decision Guides, Storage"
+  },
+  {
+    "name": "AWS-App-Studio",
+    "description": "Build internal applications to automate processes and simplify organization activities",
+    "category": "Business Applications, Developer Tools, Machine Learning"
+  },
+  {
+    "name": "AWS-Cloud-Control-API",
+    "description": "Manage AWS and third-party cloud infrastructure with consistent APIs",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Cloud9",
+    "description": "Write, run, and debug code on a cloud IDE",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-CloudShell",
+    "description": "Command line access to AWS resources and tools directly from a browser",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-CodeArtifact",
+    "description": "Artifact management for software development",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-CodeBuild",
+    "description": "Build and test code",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Amazon-CodeCatalyst",
+    "description": "Unified software development service to develop and deliver on AWS",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-CodeDeploy",
+    "description": "Automate code deployments",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-CodePipeline",
+    "description": "Release software using continuous delivery",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Fault-Injection-Service",
+    "description": "Improve resiliency and performance with controlled experiments",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Infrastructure-Composer",
+    "description": "Design and build your modern infrastructure through a visual builder",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Microservice-Extractor-for-.NET",
+    "description": "Reduce time and effort to convert large applications to microservices",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Porting-Assistant-for-.NET",
+    "description": "Port Microsoft .NET Framework applications to .NET Core",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-X-Ray",
+    "description": "Analyze and debug your applications",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDKs-and-Tools-Reference-Guide",
+    "description": "Find information applicable to multiple SDKs and tools",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-.NET",
+    "description": "Develop applications with .NET-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-C++",
+    "description": "Develop applications with C++-specific APIs",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Go",
+    "description": "Develop applications with Go-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Java",
+    "description": "Develop applications with Java-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-JavaScript",
+    "description": "Develop applications with JavaScript-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Kotlin",
+    "description": "Develop applications with Kotlin-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-PHP",
+    "description": "Develop applications with PHP-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Python-(Boto3)",
+    "description": "Develop applications with Python-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Ruby",
+    "description": "Develop applications with Ruby-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Rust",
+    "description": "Develop applications with Rust-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-SAP-ABAP",
+    "description": "Develop applications with a client library of modules",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-SDK-for-Swift",
+    "description": "Develop applications with Swift-specific APIs and libraries",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Toolkit-for-.NET-Refactoring",
+    "description": "Reduce time and effort to refactor legacy .NET apps for AWS Cloud",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Toolkit-for-Azure-DevOps",
+    "description": "Extension for hosted and on-premises Microsoft Azure DevOps",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Toolkit-for-JetBrains",
+    "description": "Open-source plugin for the integrated development environments (IDEs) for JetBrains",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Toolkit-for-Visual-Studio",
+    "description": "Plugin for the Visual Studio integrated development environment (IDE)",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Toolkit-for-Visual-Studio-Code",
+    "description": "Open-source extension for the Visual Studio Code editor",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Tools-for-PowerShell",
+    "description": "PowerShell modules built on the functionality exposed by the AWS SDK for .NET",
+    "category": "Developer Tools"
+  },
+  {
+    "name": "AWS-Amazon-AppStream-2.0",
+    "description": "Stream desktop applications securely to a browser",
+    "category": "End User Computing"
+  },
+  {
+    "name": "AWS-Amazon-DCV",
+    "description": "Connect securely to graphic-intensive 3D apps on remote servers",
+    "category": "End User Computing"
+  },
+  {
+    "name": "AWS-Amazon-WorkSpaces",
+    "description": "Virtual desktops in the cloud",
+    "category": "End User Computing"
+  },
+  {
+    "name": "AWS-Amazon-WorkSpaces-Core",
+    "description": "Virtual desktop infrastructure that works with third-party solutions",
+    "category": "End User Computing"
+  },
+  {
+    "name": "AWS-Amazon-WorkSpaces-Thin-Client",
+    "description": "Affordable, easy-to-manage device to securely access virtual desktops",
+    "category": "End User Computing"
+  },
+  {
+    "name": "AWS-Amazon-WorkSpaces-Secure-Browser",
+    "description": "Provide secure access to internal websites and SaaS applications",
+    "category": "End User Computing"
+  },
+  {
+    "name": "AWS-Choosing-AWS-Frontend-and-Mobile-Services",
+    "description": "Ask the right questions to build your web or mobile app on AWS",
+    "category": "Decision Guides, Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Amplify",
+    "description": "Build, deploy, host, and manage scalable web and mobile apps",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Amplify-(AWS-Mobile-SDK-for-Android)",
+    "description": "Build native Android applications powered by AWS",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-AmplifyiOS-(AWS-Mobile-SDK-for-iOS)",
+    "description": "Build native iOS applications powered by AWS",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-AppSync",
+    "description": "Accelerate app development with fully-managed, scalable GraphQL APIs",
+    "category": "Front-End Web & Mobile, Serverless"
+  },
+  {
+    "name": "AWS-Device-Farm",
+    "description": "Test Android, iOS, and web apps on real devices in the AWS Cloud",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Amazon-Location-Service",
+    "description": "Securely and easily add location data to applications",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Mobile-SDK-for-Unity",
+    "description": "Find .NET classes that enable games written with Unity to utilize AWS",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Amazon-Silk",
+    "description": "Create a faster, more responsive mobile browsing experience",
+    "category": "Front-End Web & Mobile"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-IoT-Service",
+    "description": "Choose the right AWS IoT services",
+    "category": "Decision Guides, Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-FreeRTOS",
+    "description": "Real-time operating system for microcontrollers",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-1-Click",
+    "description": "One-click creation of an AWS Lambda trigger",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Analytics",
+    "description": "Analytics for IoT devices",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Core",
+    "description": "Connect devices to the cloud",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Device-Defender",
+    "description": "Security management for IoT devices",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Device-Management",
+    "description": "Onboard, organize, and remotely manage IoT devices",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Events",
+    "description": "IoT event detection and response",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-ExpressLink",
+    "description": "Quickly and easily develop secure IoT devices",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-FleetWise",
+    "description": "Unlock the value of vehicle data",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Greengrass",
+    "description": "Local compute, messaging, and sync for devices",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-SiteWise",
+    "description": "IoT data collector and interpreter",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-TwinMaker",
+    "description": "Optimize operations by creating digital twins of real-world systems",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-IoT-Wireless",
+    "description": "Secure bi-directional communication for LoRaWAN and Sidewalk end devices",
+    "category": "Internet of Things (IoT)"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Machine-Learning-Service",
+    "description": "Choose the right ML services and frameworks to support your work",
+    "category": "Decision Guides, Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-A2I",
+    "description": "Easily implement human review of ML predictions",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Apache-MXNet-on-AWS",
+    "description": "Scalable, open-source deep learning framework",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Bedrock",
+    "description": "Access best-in-class foundation models to build generative AI applications",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-CodeGuru",
+    "description": "Find your most expensive lines of code",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Comprehend",
+    "description": "Discover insights and relationships in text",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Comprehend-Medical",
+    "description": "Detect and return useful information in unstructured clinical text",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Deep-Learning-AMIs",
+    "description": "Deep learning on Amazon EC2",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Deep-Learning-Containers",
+    "description": "Docker images for deep learning",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-DeepComposer",
+    "description": "ML enabled musical keyboard",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-DeepRacer",
+    "description": "Autonomous 1/18th scale race car, driven by ML",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-DevOps-Guru",
+    "description": "Improve application availability with ML-powered cloud operations",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Forecast",
+    "description": "Increase forecast accuracy using machine learning",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Fraud-Detector",
+    "description": "Detect more online fraud faster",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-HealthImaging",
+    "description": "Manage medical imaging data",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-HealthLake",
+    "description": "Securely store, transform, query, and analyze health data in minutes",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-HealthOmics",
+    "description": "Transform omics data into insights",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Kendra",
+    "description": "Reinvent enterprise search with ML",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Lex",
+    "description": "Build voice and text chatbots",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Lookout-for-Equipment",
+    "description": "Detect abnormal equipment behavior by analyzing sensor data",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Lookout-for-Metrics",
+    "description": "Automatically detect anomalies in metrics and identify the root cause",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Lookout-for-Vision",
+    "description": "Spot product defects and automate quality inspection",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Machine-Learning",
+    "description": "Learn about Amazon machine learning services",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Monitron",
+    "description": "Reduce unplanned equipment downtime with predictive maintenance and ML",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Panorama",
+    "description": "Improve your operations with computer vision at the edge",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Personalize",
+    "description": "Build real-time recommendations into your applications",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Polly",
+    "description": "Turn text into life-like speech",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Rekognition",
+    "description": "Analyze image and video",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-SageMaker",
+    "description": "Build, train, and deploy machine learning models at scale",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Textract",
+    "description": "Extract text and data from documents",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Transcribe",
+    "description": "Automatic speech recognition",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Amazon-Translate",
+    "description": "Natural and fluent language translation",
+    "category": "Machine Learning"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Monitoring-and-Observability-Service",
+    "description": "Choose the right AWS monitoring and observability service",
+    "category": "Decision Guides, Management & Governance"
+  },
+  {
+    "name": "AWS-AppConfig",
+    "description": "Quickly deploy application configurations to applications of any size",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Auto-Scaling",
+    "description": "Scale multiple resources to meet demand",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Account-Management",
+    "description": "Manage your AWS accounts as a group",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Chatbot",
+    "description": "ChatOps for AWS",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-CloudFormation",
+    "description": "Create and manage resources with templates",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-CloudTrail",
+    "description": "Track and monitor activities by users, roles, or AWS services",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Amazon-CloudWatch",
+    "description": "Monitor resources and applications",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-CLI",
+    "description": "Command line interface tool to manage AWS services",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Compute-Optimizer",
+    "description": "Identify optimal AWS compute resources",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Config",
+    "description": "Track and evaluate configuration changes",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Console-Mobile-Application",
+    "description": "View and manage resources to support incident response while on-the-go",
+    "category": "AWS Management Console, Management & Governance"
+  },
+  {
+    "name": "AWS-Control-Tower",
+    "description": "Set up and govern a secure, compliant multi-account environment",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Amazon-Data-Lifecycle-Manager",
+    "description": "Automate management of Amazon EBS snapshots and Amazon EBS-backed AMIs",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Health",
+    "description": "Find information about events that can affect your AWS resources",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Launch-Wizard",
+    "description": "Easily size, configure, and deploy third-party applications on AWS",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-License-Manager",
+    "description": "Track and manage software licenses across multiple AWS Regions",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Amazon-Managed-Grafana",
+    "description": "Visualize and analyze your operational data at scale",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Amazon-Managed-Service-for-Prometheus",
+    "description": "Highly available, secure, and managed monitoring for your containers",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-OpsWorks",
+    "description": "Automate operations with Chef and Puppet",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Organizations",
+    "description": "Central governance and management across AWS accounts",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Proton",
+    "description": "Automate management for container and serverless deployments",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Resilience-Hub",
+    "description": "Prepare and protect your applications from disruptions",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Resource-Explorer",
+    "description": "Search for and discover relevant resources across AWS",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Resource-Groups",
+    "description": "See your resources across the AWS Regions in your AWS account",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Service-Catalog",
+    "description": "Create and use standardized products",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Service-Management-Connector",
+    "description": "Provision, manage, and operate AWS resources within ITSM tools",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Service-Quotas",
+    "description": "View and manage your AWS workload quotas easily and at scale",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Systems-Manager",
+    "description": "Gain operational insights and take action",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Tag-Editor",
+    "description": "Add, edit, or delete tags on multiple AWS resources",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Telco-Network-Builder",
+    "description": "Automate the deployment and management of your telco networks on AWS",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Tools-for-PowerShell",
+    "description": "Script operations on AWS resources from the PowerShell command line",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Trusted-Advisor",
+    "description": "Optimize performance and security",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-User-Notifications",
+    "description": "Unifies the notification experience across AWS services",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Well-Architected-Tool",
+    "description": "Review and improve your workloads",
+    "category": "Management & Governance"
+  },
+  {
+    "name": "AWS-Marketplace",
+    "description": "Buy or sell software that runs on AWS",
+    "category": "Marketplace"
+  },
+  {
+    "name": "AWS-Choosing-an-AWS-Storage-Service",
+    "description": "Choose the right AWS storage service",
+    "category": "Decision Guides, Storage"
+  },
+  {
+    "name": "AWS-Backup",
+    "description": "Centralized backup across AWS services",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Amazon-EBS",
+    "description": "Amazon EC2 block storage volumes",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Amazon-EFS",
+    "description": "Fully managed file system for Amazon EC2",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Elastic-Disaster-Recovery",
+    "description": "Scalable, cost-effective application recovery to AWS",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Amazon-FSx",
+    "description": "Launch, run, and scale feature-rich and high-performing file systems",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Amazon-S3",
+    "description": "Object storage built to retrieve any amount of data from anywhere",
+    "category": "Serverless, Storage"
+  },
+  {
+    "name": "AWS-Amazon-S3-Glacier",
+    "description": "Low-cost archive storage in the AWS Cloud",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Snowball-Edge",
+    "description": "Move petabytes of data to and from AWS, or process data at the edge",
+    "category": "Storage"
+  },
+  {
+    "name": "AWS-Storage-Gateway",
+    "description": "Hybrid storage integration",
+    "category": "Storage"
+  }
+]
