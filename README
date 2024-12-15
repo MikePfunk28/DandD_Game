@@ -1,0 +1,19 @@
+# Not-In-My-Cloud
+
+I’m happy to share this Not In My Cloud! project I working on. Check it out here: <https://lnkd.in/em5Sf9BK>.  A game I am trying to build for the #hackathon by Devpost and Amazon Web Services (AWS), using Amazon Q developer to assistant the process.
+
+Seeing as #sora, by OpenAI was just released, and I just got access.  I figured why not see what it could do with a png I had for a mockup on the opening scene.  What was surprising was how when I remixed the prompt it made it significantly better.  Not to mention, it is doing this from a text input.
+
+Check out my #github to see the video it first made, then the following iterations:
+
+<https://github.com/MikePfunk28/not-in-my-cloud>
+
+Initial prompt used:
+
+"In a dimly lit room filled with shadows, a sleek modern desk sits under a flickering cool white desk lamp. The laptop on the desk glows faintly, its screen facing the camera with a haunting message in bold, glitchy white font: 'If you're reading this, it might be too late.' The text distorts briefly, revealing a follow-up line: 'Check the firewall before it’s too late…' The light flickers erratically, briefly plunging the room into darkness. Faint outlines of scattered papers and a tipped-over chair suggest someone left in haste. The faint hum of the laptop grows louder as the screen flickers, briefly showing AWS service icons like Lambda, EC2, and S3, before returning to the message. In the background, the faint sound of distant thunder or a muffled alarm can be heard, adding to the tension. The camera slowly zooms in on the laptop, emphasizing the urgency of the message as shadows dance across the room."
+
+Strong Remix prompt:
+
+at the zoom in, come back showing aws service icons and then glitch back to the message. But do not add anything over the top in this, the desk i added and the laptop and chair can stay the same, also, the text on screeen shouldnt glitch, but the screen on the laptop should glitch. 3 fixes. Also, it is the opening scene in a video game so could you maybe make it smoother
+
+🤓
