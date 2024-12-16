@@ -59,13 +59,12 @@ def run_game(player: Player, defender: VPCDefender) -> int:
         print("\n--- Setup Phase ---")
         print(f"Preparation Points: {defender.preparation_points}")
         print("Available Defensive Measures:")
-        for key, measure in defender.defensive_measures.items():
-            print(f"- {key}: {measure.description} (Cost: {
-                  measure.cost}, Effectiveness: {measure.effectiveness})")
+        for measure in defender.defensive_measures:
+            print(f"- {measure.name}: {measure.description} (Cost: {measure.cost}, Effectiveness: {measure.effectiveness})")
+
         print("Available Offensive Measures:")
-        for key, measure in defender.offensive_measures.items():
-            print(f"- {key}: {measure.description} (Cost: {
-                  measure.cost}, Effectiveness: {measure.effectiveness})")
+        for measure in defender.offensive_measures:
+            print(f"- {measure.name}: {measure.description} (Cost: {measure.cost}, Effectiveness: {measure.effectiveness})")
 
         while True:
             setup_action = input(
@@ -145,6 +144,7 @@ def continuous_game_loop(max_sessions: int = 5, winning_score: int = 500):
         stats = CharacterStats()
         defender = VPCDefender(name=player.name + "'s Defender", stats=stats)
         player.defender = defender
+        defenders.append(defender)
 
     # Game loop variables
     # Track player points

@@ -39,14 +39,11 @@ class Player:
         return random.randint(1, 6)  # Replace with card logic if needed
 
     def move(self, steps: int):
-        """
-        Moves the player a certain number of steps on the game board.
-        """
         total_regions = len(self.game_board.regions)
         self.current_position = (self.current_position + steps) % total_regions
         landed_region = self.game_board.regions[self.current_position]
         # Randomly select an AZ within the region
         landed_az = random.choice(landed_region.azs)
-        print(f"{self.name} landed on {
-              landed_region.name} - {landed_az.name}.")
+        print(f"{self.name} landed on {landed_region.name} - {landed_az.name}.")
         return landed_region, landed_az
+

@@ -40,12 +40,12 @@ class CloudFrontSpell(ServerlessSpell):
     def cast(self, caster) -> bool:
         if caster.resources.consume(self.cost):
             caster.status_effects.append(
-                SecurityStatus(
-                    name="CDN Protection",
-                    duration=4,
-                    effect_value=20,
-                    status_type=StatusType.BUFF,
-                    description="Enhanced content delivery and DDoS protection"
+            SecurityStatus(
+                name="Edge Computing",
+                duration=3,
+                effect_value=15,
+                status_type=StatusType.BUFF,
+                description="Increased computing power at edge locations",
                 )
             )
             return True
