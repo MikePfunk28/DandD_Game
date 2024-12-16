@@ -1,54 +1,48 @@
-# security_measures.py
-from enum import Enum
-from dataclasses import dataclass
-from typing import List, Dict
+from security_common import SecurityStrategy
 
-
-class SecurityStrategy(Enum):
-    DEFENSIVE = "defensive"
-    OFFENSIVE = "offensive"
-    HYBRID = "hybrid"
-
-
-@dataclass
 class SecurityMeasure:
-    name: str
-    cost: Dict[str, int]
-    effectiveness: int
-    strategy: SecurityStrategy
-
-
-class SecurityMeasures:
+    def __init__(self, name, description, cost, strategy):
+        self.name = name
+        self.description = description
+        self.cost = cost
+        self.strategy = strategy
+        
     @staticmethod
-    def get_offensive_measures() -> List[SecurityMeasure]:
+    def get_defensive_measures():
         return [
             SecurityMeasure(
-                name="Firewall Rule",
-                cost={"compute": 10, "network": 5},
-                effectiveness=15,
-                strategy=SecurityStrategy.OFFENSIVE
+                name="Firewall", 
+                description="Blocks unauthorized access", 
+                cost=10, 
+                strategy=SecurityStrategy.DEFENSIVE
             ),
             SecurityMeasure(
-                name="IDS Alert",
-                cost={"compute": 15, "network": 10},
-                effectiveness=20,
-                strategy=SecurityStrategy.OFFENSIVE
-            )
+                name="Encryption", 
+                description="Secures data in transit", 
+                cost=15, 
+                strategy=SecurityStrategy.DEFENSIVE
+            ),
+            SecurityMeasure(
+                name="DDoS Protection", 
+                description="Defends against DDoS attacks", 
+                cost=20, 
+                strategy=SecurityStrategy.DEFENSIVE
+            ),
         ]
 
     @staticmethod
-    def get_defensive_measures() -> List[SecurityMeasure]:
+    def get_offensive_measures():
         return [
             SecurityMeasure(
-                name="Encryption",
-                cost={"compute": 20, "network": 5},
-                effectiveness=25,
-                strategy=SecurityStrategy.DEFENSIVE
+                name="Intrusion Detection", 
+                description="Identifies suspicious activity", 
+                cost=12, 
+                strategy=SecurityStrategy.OFFENSIVE
             ),
             SecurityMeasure(
-                name="Backup",
-                cost={"compute": 10, "storage": 20},
-                effectiveness=30,
-                strategy=SecurityStrategy.DEFENSIVE
-            )
+                name="Penetration Test", 
+                description="Simulates attacks for testing", 
+                cost=18, 
+                strategy=SecurityStrategy.OFFENSIVE
+            ),
         ]
