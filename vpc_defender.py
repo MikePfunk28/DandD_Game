@@ -14,19 +14,6 @@ class VPCDefender:
         
         self.active_measures = []
 
-
-class VPCDefender:
-    def __init__(self, name, stats):
-        self.name = name
-        self.stats = stats
-        self.current_health = stats.max_health
-        self.preparation_points = 100
-        measures = SecurityMeasures()
-        self.defensive_measures = measures.get_defensive_measures()
-        self.offensive_measures = measures.get_offensive_measures()
-        self.active_measures = []
-
-
     def add_active_measure(self, measure_name):
         for measure in self.defensive_measures:
             if measure.name.lower() == measure_name.lower():
