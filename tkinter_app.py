@@ -46,3 +46,38 @@ class GameUI:
         else:
             self.dialogue_label.config(text="End of dialogue.")
             self.next_button.config(state="disabled")
+
+class GameController:
+    def __init__(self, root):
+        self.ui = GameUI(root)
+        self.engine = GameEngine()
+
+        # Start the game when the UI is ready
+        self.ui.add_message("Welcome to the Cloud Security Battle!")
+        self.ui.add_message("Click 'Next' to start the game.")
+        self.ui.next_button.config(command=self.start_game)
+
+    def start_game(self):
+        self.ui.add_message("Initializing game...")
+        self.engine.initialize_game()
+        self.play_next_turn()
+
+    def play_next_turn(self):
+        self.ui.add_message("Playing the next turn...")
+        # Logic to play a turn via the GameUI (replace print and input)
+        
+        # Example of using the GameUI for input:
+        def on_user_choice(choice):
+            self.ui.add_message(f"You selected: {choice}")
+            # Handle game logic based on choice
+
+        self.ui.show_options(
+            "What would you like to do?",
+            ["Roll dice", "Draw card"],
+            callback=on_user_choice
+        )
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    controller = GameController(root)
+    root.mainloop()
