@@ -13,7 +13,7 @@ class Threat:
     power: int
     persistence: int
     adaptability: int
-    scale: float
+    scale: int
 
     def calculate_damage(self, defender: 'VPCDefender') -> int:
         """
