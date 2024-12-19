@@ -49,6 +49,19 @@ class SecurityMeasures:
                 cost=15,
                 strategy=SecurityStrategy.OFFENSIVE
             ),
+            # Hybrid Measures
+            SecurityMeasure(
+                name="Security Awareness Training",
+                description="Educates employees on security best practices",
+                cost=10,
+                strategy=SecurityStrategy.HYBRID
+            ),
+            SecurityMeasure(
+                name="Incident Response Plan",
+                description="Prepares for and responds to security incidents",
+                cost=25,
+                strategy=SecurityStrategy.HYBRID
+            ),
         ]
 
     def get_defensive_measures(self):
@@ -56,3 +69,6 @@ class SecurityMeasures:
 
     def get_offensive_measures(self):
         return [measure for measure in self.measures if measure.strategy == SecurityStrategy.OFFENSIVE]
+
+    def get_hybrid_measures(self):
+        return [measure for measure in self.measures if measure.strategy == SecurityStrategy.HYBRID]
