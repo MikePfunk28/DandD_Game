@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Board</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+            /* Horizon effect */
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1920px;
+            height: auto;
+        }
+
+        .gameboard {
+            width: 100%;
+            display: block;
+        }
+
+        .horizon-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(to bottom, #FFD700, #FF4500);
+            /* Sunset horizon gradient */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./src/media/GameBoard1920.png" alt="Game Board" class="gameboard">
+    </div>
+</body>
+
+</html>

@@ -44,6 +44,14 @@ class Player:
         landed_region = self.game_board.regions[self.current_position]
         # Randomly select an AZ within the region
         landed_az = random.choice(landed_region.azs)
-        print(f"{self.name} landed on {landed_region.name} - {landed_az.name}.")
+        print(f"{self.name} landed on {
+              landed_region.name} - {landed_az.name}.")
         return landed_region, landed_az
 
+
+myplayer = Player("Mike", GameBoard())
+myplayer.set_home_region()
+steps = myplayer.roll_dice()
+landed_region, landed_az = myplayer.move(steps)
+print(f"{myplayer.name} rolled {steps} and moved to {
+      landed_region.name} - {landed_az.name}.")
